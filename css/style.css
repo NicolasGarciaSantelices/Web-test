@@ -59,7 +59,7 @@ h3{
     margin-top: 1rem;
 }
 .Services{
-    width: 960px;
+    max-width: 960px;
     margin: 100px;
     overflow: hidden;
     padding: 4rem 1rem;
@@ -116,7 +116,7 @@ h3{
     .header-content .text{
         font-size: 0.5rem;
     }
-    .grid-3,.grid-2{
+    .grid-3 , .grid-2{
         grid-template-columns: 1fr;
     }
     .Services{
