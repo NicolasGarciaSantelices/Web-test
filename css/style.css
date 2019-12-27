@@ -9,6 +9,7 @@ h3{
     font-family: 'Anton', sans-serif;
 }
 .header::after{
+    padding: 2rem 1rem;
     content:'';
     height: 100vh;
     width: 100%;
@@ -46,6 +47,9 @@ h3{
     height: 350px;
     width: 300px;
 }
+.header-content .text{
+    margin-top: 105px;
+}
 .title{
     font-family: 'Anton', sans-serif; 
     font-size: 2rem;
@@ -54,15 +58,12 @@ h3{
     line-height: 1.7;
     margin-top: 1rem;
 }
-.Services .title{
-
-}
-.Services .container{
-    padding: 2rem 0;
+.Services{
     width: 960px;
-    margin: 10rem;
+    margin: 100px;
     overflow: hidden;
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
+    margin-top: 105px;
 }
 .grid-3{
     display: grid;
@@ -77,12 +78,12 @@ h3{
     margin:auto;
 }
 .bg-light{
-    padding: 2rem;
+    padding: 5rem;
     background: #fff;
     color : #333;
 }
 .bg-dark{
-    padding: 2rem;
+    padding: 5rem;
     background: rgb(32, 32, 32);
     color:#fff;
     
@@ -92,8 +93,10 @@ h3{
 
 }
 .footer p {
-    margin :0 ;
+    margin :10px ;
 }
+
+
 @media(max-width:560px){
     .header::after{
         height: 50vh;
