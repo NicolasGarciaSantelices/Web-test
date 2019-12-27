@@ -48,7 +48,9 @@ h3{
     width: 300px;
 }
 .header-content .text{
-    margin-top: 105px;
+    margin-top: 50px;
+    font-size: large;
+    
 }
 .title{
     font-family: 'Anton', sans-serif; 
@@ -59,7 +61,7 @@ h3{
     margin-top: 1rem;
 }
 .Services{
-    max-width: 960px;
+    width: 960px;
     margin: 100px;
     overflow: hidden;
     padding: 4rem 1rem;
