@@ -61,13 +61,14 @@ h3{
     margin-top: 1rem;
 }
 .Services{
-    width: 960px;
+    max-width: 960px;
     margin: 100px;
     overflow: hidden;
     padding: 4rem 1rem;
     margin-top: 105px;
 }
 .grid-3{
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -124,6 +125,7 @@ h3{
     .Services{
         padding: 1rem 1rem;
     }
+    
 
 }
 
